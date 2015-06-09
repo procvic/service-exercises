@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule ^random-exercise-group/(.*)$ ./random-exercise-group.php?category=$1
